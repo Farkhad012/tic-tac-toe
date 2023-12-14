@@ -9,7 +9,7 @@ gameContainer.style.alignItems = 'center';
 const title = createStyledElement('div', 'Tic Tac Toe', { color: '#8db600', fontSize: '60px', width: '100vw', textAlign: 'center', marginBottom: '30px' });
 
 // Создаем игровое поле и устанавливаем стили
-const field = createStyledElement('div', '', { width: '90vw', height: '90vw', gap: '1px', display: 'grid', gridTemplateRows: 'repeat(3, 1fr)', gridTemplateColumns: 'repeat(3, 1fr)' });
+const field = createStyledElement('div', '', { width: '300px', height: '300px', gap: '1px', display: 'grid', gridTemplateRows: 'repeat(3, 1fr)', gridTemplateColumns: 'repeat(3, 1fr)' });
 
 // Инициализируем игровую доску (9 ячеек)
 const board = Array(9).fill('');
