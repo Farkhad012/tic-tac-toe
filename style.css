@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  /* margin: 0 auto; */
+  font-family: cursive;  
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #310062; */
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+
+.winning-cell {
+  background-color: red;
+  color: #8db600;; /* Настройте другие стили по вашему усмотрению */
+}
+
+#clearButton {
+  /* Ваши стили для кнопки */
+  background-color: #8db600;
+  cursor: pointer;
+}
